@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Boat clone</title>
+</head>
+
+<script src="index.js"></script>
+
+<body>
+    <section class="navigation">
+        <div class="container">
+            <nav class="nav_list_item">
+                <ul class="nav_list_ul">
+                    <li class="nav_list_logo">
+                        <a href=""><img class="nav_list_logo_img"
+                                src="images/Boat-Logo_200x_200x_f9c79bf9-9c9a-477d-ab6a-7c889a1f2f70_170x.png"
+                                alt=""></a>
+                    </li>
+                    <li class="nav_list_primary_link">
+                        <ul>
+                            <li>Store</li>&nbsp;
+                            <li>More</li>
+                        </ul>
+                    </li>
+                    <li class="nav_list_secondary_link">
+
+                        <div class="nav_list_searchBox nav_list_secondary_item">
+                            <input type="text" class="searchBox">
+                            <button class="search_cross" onclick="cross()"> &#10799;</button>
+                        </div>
+                        <div class="nav_list_gift  nav_list_secondary_item">
+                            <a href=""><img class="nav_list_gift_img" src="images/gift.png" alt=""></a>
+                        </div>
+                        <div class="nav_list_user nav_list_secondary_item">
+                            <a href="">&#xf406;</a>
+                        </div>
+
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!-- ===============crousel starts here================== -->
+    <section class="crousel">
+        <div class="slider">
+            <div class="slides">
+                <!--radio buttons start-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--radio buttons end-->
+                <!--slide images start-->
+                <div class="slide first">
+                    <img src="images/img1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/img2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/img3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/img4.png" alt="">
+                </div>
+                <!--slide images end-->
+                <!--automatic navigation start-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+        </div>
+    </section>
+    <!-- ===============crousel end================== -->
+    <!-- product starts here -->
+    <section class="selection">
+        <div class="container-selection">
+            <div class="section-header">
+
+
+                <div class="text-container">
+                    <h3>Top Seller</h3>
+                </div>
+                <div class="selection-nav">
+                    <p style="color:#ff0000 ;">Smart watches</p>
+                    <p>Top Picks</p>
+
+                </div>
+                <span class="selection-nav-scroller"></span>
+            </div>
+            <div class="collection">
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- product end here -->
+
+    <!-- product starts here -->
+    <section class="selection">
+        <div class="container-selection">
+            <div class="section-header">
+
+
+                <div class="text-container">
+                    <h3>Trending Earphones</h3>
+                </div>
+                <div class="selection-nav">
+                    <p style="color:#ff0000 ;">Earbuds</p>
+                    <p>Wireless</p>
+                    <p>Wired</p>
+
+                </div>
+                <span class="selection-nav-scroller"></span>
+            </div>
+            <div class="collection">
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- product end here -->
+    <!-- New launches starts here -->
+    <section class="Lauches">
+        <div class="Launch-heading-container">
+            <h3 class="launch-heading">New Lauches</h3>
+        </div>
+        <div class="Launch-navigation">
+            <span class="Launch-navigation-arrow left-arrow"></span>
+            <span class="Launch-navigation-arrow right-arrow"></span>
+        </div>
+        <div class="Launch-product-container">
+            <div class="Launch-product-image-container">
+                <img src="images/new-launch-500-anc.webp" alt="">
+            </div>
+            <div class="Launch-product-info">
+                <div class="Launch-product-info-container">
+                    <div class="Launch-product-sub-title Launch-info-item">
+                        <p>Wirelesss Earbuds</p>
+                    </div>
+                    <div class="Launch-product-title Launch-info-item">
+                        <p>Airdopes 500ANC</p>
+                    </div>
+                    <div class="special-price Launch-info-item">
+                        <p>Special launch price</p>
+                    </div>
+                    <div class="Launch-price Launch-info-item">
+                        <p>1245</p>
+                    </div>
+                    <div class="Launch-header Launch-info-item">
+                        <p>Discription</p>
+                        <p>Features</p>
+                    </div>
+                    <div class="Launch-product-disc Launch-info-item">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni eos illum minus accusamus ad
+                            ipsam ea eveniet. Nisi, ipsa accusamus. Quae nesciunt, deserunt officia asperiores ipsam
+                            alias quo est eum.</p>
+                    </div>
+                    <div class="color-switch Launch-info-item">
+                        <p>red</p>
+                        <p>red</p>
+                        <p>red</p>
+                    </div>
+                    <div class="Launch-btn Launch-info-item">
+                        <a href="">Explare Now</a>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- New launches  end here-->
+    <!-- product starts here -->
+    <section class="selection">
+        <div class="container-selection">
+            <div class="section-header">
+
+
+                <div class="text-container">
+                    <h3>Trending Headphones</h3>
+                </div>
+                <div class="selection-nav">
+                    <p style="color:#ff0000 ;">Wireless</p>
+                    <p>ANC</p>
+                    <p>Wired</p>
+
+                </div>
+                <span class="selection-nav-scroller"></span>
+            </div>
+            <div class="collection">
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- product end here -->
+
+
+    <!-- product starts here -->
+    <section class="selection">
+        <div class="container-selection">
+            <div class="section-header">
+
+
+                <div class="text-container">
+                    <h3>Gaming</h3>
+                </div>
+                <!-- <div class="selection-nav">
+                    <p style="color:#ff0000 ;">Smart watches</p>
+                    <p>Top Picks</p>
+
+                </div>
+                <span class="selection-nav-scroller"></span> -->
+            </div>
+            <div class="collection">
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- product end here -->
+
+
+    <!-- blog starts here -->
+    <section class="Blog-container">
+        <div class="Blog-heading">
+            <h3>boAt Blog</h3>
+        </div>
+        <div class="Blog-cards">
+            <div class="Blog-card-container">
+                <img src="images/blog1.png" alt="" class="Blog-image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quaerat aut officia, eum enim esse,
+                    rem totam sint consequatur molestias unde repellat?</p>
+            </div>
+            <div class="Blog-card-container">
+                <img src="images/blog2.png" alt="" class="Blog-image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae mollitia, accusamus itaque
+                    adipisci consequatur iusto, animi quia quod soluta quam nemo, voluptate dolore provident</p>
+            </div>
+            <div class="Blog-card-container">
+                <img src="images/blog3.png" alt="" class="Blog-image">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo totam vitae ullam dicta architecto
+                    voluptate, nobis dolor commodi necessitatibus voluptatum ducimus dolore repellendus it</p>
+            </div>
+        </div>
+        <div class="Blog-btn">
+            <a href="">Explore Blogs</a>
+        </div>
+    </section>
+    <!-- blog ends here -->
+
+    <!-- Gallery starts here -->
+    <section class="Gallery">
+        <div class="Gallery-container">
+            <div class="Gallery-image Gallery-item">
+                <img src="images/Fierce_-Flamboyant_-Fearless_jpg_563x.png" alt="">
+            </div>
+            <div class="Gallery-info Gallery-item">
+                <h2>Meet the boAtheads</h2>
+                <p class="Gallery-name">KL RAHUL</p>
+                <h3>Fierce. Flamboyant. Fearless.</h3>
+                <p>When you hear the crowd roar, be assured that its KL Rahul making his way to the field. Our hardcore
+                    boAthead, KL Rahul, hits it with his performance as well as his fashion statement. On or off field,
+                    Rahul always makes #MoveOfTheChampions.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery ends here -->
+
+    <!-- Reviews starts here -->
+    <section class="Product-review">
+        <div class="Review-container">
+            <div class="Review-heading">
+                <h3>What They About Us:</h3>
+            </div>
+            <div class="Review-card">
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Product-item">
+                    <span class="lable">
+                        New-Arrival
+                    </span>
+                    <div class="Product-item-image">
+                        <a href="" class="pro-image-link"><img src="images/product.png" alt="" class="pro-image"></a>
+                    </div>
+                    <div class="Product-item-info">
+                        <a href="" class="Product-item-info-title">Watch wave light</a>
+                        <div class="Product-item-info-price">
+                            <div class="Price-list">
+                                <span class="sales-price price">
+                                    $30
+                                </span>
+                                <span class="regular-price price">
+                                    $40
+                                </span>
+                            </div>
+                            <div class="Product-add">
+                                <button>Add+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Reviews end here -->
+
+
+    <!-- Footer starts here -->
+    <section class="footer">
+        <div class="Brand-text">
+            <p>India's fastest growing audio & wearables brand. The most incredible range of wireless earphones,
+                earbuds, headphones, smart watches, and home audio. From workouts to adventures, boAt will get you
+                sailing!</p>
+        </div>
+    </section>
+    <!-- Footer ends here -->
+
+
+</body>
+
+</html>
